@@ -63,7 +63,19 @@ int main () {
                     }
                 }
             }   
-            cout << "Результат:" << endl;
+
+            cout << "\n--- Исходные данные ---" << endl;
+            cout << "Размер матрицы N = " << N << ", степень K = " << K << endl;
+            cout << "Исходная матрица A:" << endl;
+            for (int i = 0; i < N; i++) {
+                for (int j = 0; j < N; j++) {
+                    cout << A[i][j] << " ";
+                }
+                cout << endl;
+            }
+
+            cout << "\n--- Полученный результат ---" << endl;
+            cout << "Матрица A в степени " << K << ":" << endl;
             for (int i = 0; i < N; i++) {
                 for (int j = 0; j < N; j++) {
                     cout << result[i][j] << " ";
