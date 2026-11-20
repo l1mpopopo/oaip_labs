@@ -1,0 +1,1 @@
+bool solveTask2(const double* X, int n);
