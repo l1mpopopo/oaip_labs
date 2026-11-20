@@ -1,1 +1,0 @@
-void solveTask2(int n);
